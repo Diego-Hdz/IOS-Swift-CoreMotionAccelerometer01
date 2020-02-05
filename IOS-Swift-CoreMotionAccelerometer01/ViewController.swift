@@ -16,10 +16,16 @@ class ViewController: UIViewController{
     @IBOutlet weak var zAccel: UITextField!
     
     var motion = CMMotionManager()
+    var stopped = true
+    
+    var px = 0.0
+    var py = 0.0
+    var pz = 0.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(handleTap(sender:)))
+        view.addGestureRecognizer(tap)
         myAccelerometer()
     }
     
@@ -32,17 +38,25 @@ class ViewController: UIViewController{
                 let x = trueData.acceleration.x
                 let y = trueData.acceleration.y
                 let z = trueData.acceleration.z
-                self.xAccel!.text = "x: \(Double(x).rounded(toPlaces: 5))"
-                self.yAccel!.text = "y: \(Double(y).rounded(toPlaces: 5))"
-                self.zAccel!.text = "z: \(Double(z).rounded(toPlaces: 5))"
+                self.px = (Double(x).rounded(toPlaces: 4))
+                self.py = (Double(y).rounded(toPlaces: 4))
+                self.pz = (Double(z).rounded(toPlaces: 4))
             }
         }
         return
     }
+    
+    @objc func handleTap(sender: UITapGestureRecognizer){
+        guard sender.view != nil else {return}
+        if sender.state == .ended{
+            self.xAccel!.text = "x: \(px)"
+            self.yAccel!.text = "y: \(py)"
+            self.zAccel!.text = "z: \(pz)"
+        }
+    }
 }
 
 extension Double {
-    //Rounds the double to the decimal places value
     func rounded(toPlaces places:Int) -> Double{
         let divisor = pow(10.0, Double(places))
         return (self * divisor).rounded()/divisor
