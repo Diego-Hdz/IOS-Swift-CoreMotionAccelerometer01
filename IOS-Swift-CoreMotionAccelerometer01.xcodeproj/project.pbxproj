@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCE76B0623EA1AE100EEA742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE76B0523EA1AE100EEA742 /* AppDelegate.swift */; };
+		BCE76B0C23EA1AE500EEA742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE76B0B23EA1AE500EEA742 /* Assets.xcassets */; };
+		BCE76B0F23EA1AE500EEA742 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE76B0E23EA1AE500EEA742 /* Preview Assets.xcassets */; };
+		BCE76B1223EA1AE500EEA742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE76B1023EA1AE500EEA742 /* LaunchScreen.storyboard */; };
+		BCE76B1D23EA1AE500EEA742 /* IOS_Swift_CoreMotionAccelerometer01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE76B1C23EA1AE500EEA742 /* IOS_Swift_CoreMotionAccelerometer01Tests.swift */; };
+		BCE76B2823EA1AE500EEA742 /* IOS_Swift_CoreMotionAccelerometer01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE76B2723EA1AE500EEA742 /* IOS_Swift_CoreMotionAccelerometer01UITests.swift */; };
+		BCE76B3623EA1B9100EEA742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE76B3523EA1B9100EEA742 /* Main.storyboard */; };
+		BCE76B3823EA222C00EEA742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE76B3723EA222C00EEA742 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCE76B1923EA1AE500EEA742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE76AFA23EA1AE100EEA742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE76B0123EA1AE100EEA742;
+			remoteInfo = "IOS-Swift-CoreMotionAccelerometer01";
+		};
+		BCE76B2423EA1AE500EEA742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE76AFA23EA1AE100EEA742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE76B0123EA1AE100EEA742;
+			remoteInfo = "IOS-Swift-CoreMotionAccelerometer01";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCE76B0223EA1AE100EEA742 /* IOS-Swift-CoreMotionAccelerometer01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-Swift-CoreMotionAccelerometer01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE76B0523EA1AE100EEA742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCE76B0B23EA1AE500EEA742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCE76B0E23EA1AE500EEA742 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCE76B1123EA1AE500EEA742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCE76B1323EA1AE500EEA742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE76B1823EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-Swift-CoreMotionAccelerometer01Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE76B1C23EA1AE500EEA742 /* IOS_Swift_CoreMotionAccelerometer01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Swift_CoreMotionAccelerometer01Tests.swift; sourceTree = "<group>"; };
+		BCE76B1E23EA1AE500EEA742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE76B2323EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-Swift-CoreMotionAccelerometer01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE76B2723EA1AE500EEA742 /* IOS_Swift_CoreMotionAccelerometer01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Swift_CoreMotionAccelerometer01UITests.swift; sourceTree = "<group>"; };
+		BCE76B2923EA1AE500EEA742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE76B3523EA1B9100EEA742 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BCE76B3723EA222C00EEA742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE76AFF23EA1AE100EEA742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE76B1523EA1AE500EEA742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE76B2023EA1AE500EEA742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE76AF923EA1AE100EEA742 = {
+			isa = PBXGroup;
+			children = (
+				BCE76B0423EA1AE100EEA742 /* IOS-Swift-CoreMotionAccelerometer01 */,
+				BCE76B1B23EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01Tests */,
+				BCE76B2623EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01UITests */,
+				BCE76B0323EA1AE100EEA742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE76B0323EA1AE100EEA742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE76B0223EA1AE100EEA742 /* IOS-Swift-CoreMotionAccelerometer01.app */,
+				BCE76B1823EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01Tests.xctest */,
+				BCE76B2323EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE76B0423EA1AE100EEA742 /* IOS-Swift-CoreMotionAccelerometer01 */ = {
+			isa = PBXGroup;
+			children = (
+				BCE76B0523EA1AE100EEA742 /* AppDelegate.swift */,
+				BCE76B0B23EA1AE500EEA742 /* Assets.xcassets */,
+				BCE76B1023EA1AE500EEA742 /* LaunchScreen.storyboard */,
+				BCE76B3523EA1B9100EEA742 /* Main.storyboard */,
+				BCE76B1323EA1AE500EEA742 /* Info.plist */,
+				BCE76B0D23EA1AE500EEA742 /* Preview Content */,
+				BCE76B3723EA222C00EEA742 /* ViewController.swift */,
+			);
+			path = "IOS-Swift-CoreMotionAccelerometer01";
+			sourceTree = "<group>";
+		};
+		BCE76B0D23EA1AE500EEA742 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCE76B0E23EA1AE500EEA742 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCE76B1B23EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE76B1C23EA1AE500EEA742 /* IOS_Swift_CoreMotionAccelerometer01Tests.swift */,
+				BCE76B1E23EA1AE500EEA742 /* Info.plist */,
+			);
+			path = "IOS-Swift-CoreMotionAccelerometer01Tests";
+			sourceTree = "<group>";
+		};
+		BCE76B2623EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE76B2723EA1AE500EEA742 /* IOS_Swift_CoreMotionAccelerometer01UITests.swift */,
+				BCE76B2923EA1AE500EEA742 /* Info.plist */,
+			);
+			path = "IOS-Swift-CoreMotionAccelerometer01UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE76B0123EA1AE100EEA742 /* IOS-Swift-CoreMotionAccelerometer01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE76B2C23EA1AE500EEA742 /* Build configuration list for PBXNativeTarget "IOS-Swift-CoreMotionAccelerometer01" */;
+			buildPhases = (
+				BCE76AFE23EA1AE100EEA742 /* Sources */,
+				BCE76AFF23EA1AE100EEA742 /* Frameworks */,
+				BCE76B0023EA1AE100EEA742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IOS-Swift-CoreMotionAccelerometer01";
+			productName = "IOS-Swift-CoreMotionAccelerometer01";
+			productReference = BCE76B0223EA1AE100EEA742 /* IOS-Swift-CoreMotionAccelerometer01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCE76B1723EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE76B2F23EA1AE500EEA742 /* Build configuration list for PBXNativeTarget "IOS-Swift-CoreMotionAccelerometer01Tests" */;
+			buildPhases = (
+				BCE76B1423EA1AE500EEA742 /* Sources */,
+				BCE76B1523EA1AE500EEA742 /* Frameworks */,
+				BCE76B1623EA1AE500EEA742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE76B1A23EA1AE500EEA742 /* PBXTargetDependency */,
+			);
+			name = "IOS-Swift-CoreMotionAccelerometer01Tests";
+			productName = "IOS-Swift-CoreMotionAccelerometer01Tests";
+			productReference = BCE76B1823EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCE76B2223EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE76B3223EA1AE500EEA742 /* Build configuration list for PBXNativeTarget "IOS-Swift-CoreMotionAccelerometer01UITests" */;
+			buildPhases = (
+				BCE76B1F23EA1AE500EEA742 /* Sources */,
+				BCE76B2023EA1AE500EEA742 /* Frameworks */,
+				BCE76B2123EA1AE500EEA742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE76B2523EA1AE500EEA742 /* PBXTargetDependency */,
+			);
+			name = "IOS-Swift-CoreMotionAccelerometer01UITests";
+			productName = "IOS-Swift-CoreMotionAccelerometer01UITests";
+			productReference = BCE76B2323EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE76AFA23EA1AE100EEA742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Diego;
+				TargetAttributes = {
+					BCE76B0123EA1AE100EEA742 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BCE76B1723EA1AE500EEA742 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BCE76B0123EA1AE100EEA742;
+					};
+					BCE76B2223EA1AE500EEA742 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BCE76B0123EA1AE100EEA742;
+					};
+				};
+			};
+			buildConfigurationList = BCE76AFD23EA1AE100EEA742 /* Build configuration list for PBXProject "IOS-Swift-CoreMotionAccelerometer01" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCE76AF923EA1AE100EEA742;
+			productRefGroup = BCE76B0323EA1AE100EEA742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE76B0123EA1AE100EEA742 /* IOS-Swift-CoreMotionAccelerometer01 */,
+				BCE76B1723EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01Tests */,
+				BCE76B2223EA1AE500EEA742 /* IOS-Swift-CoreMotionAccelerometer01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCE76B0023EA1AE100EEA742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE76B1223EA1AE500EEA742 /* LaunchScreen.storyboard in Resources */,
+				BCE76B0F23EA1AE500EEA742 /* Preview Assets.xcassets in Resources */,
+				BCE76B0C23EA1AE500EEA742 /* Assets.xcassets in Resources */,
+				BCE76B3623EA1B9100EEA742 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE76B1623EA1AE500EEA742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE76B2123EA1AE500EEA742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE76AFE23EA1AE100EEA742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE76B0623EA1AE100EEA742 /* AppDelegate.swift in Sources */,
+				BCE76B3823EA222C00EEA742 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE76B1423EA1AE500EEA742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE76B1D23EA1AE500EEA742 /* IOS_Swift_CoreMotionAccelerometer01Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE76B1F23EA1AE500EEA742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE76B2823EA1AE500EEA742 /* IOS_Swift_CoreMotionAccelerometer01UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCE76B1A23EA1AE500EEA742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE76B0123EA1AE100EEA742 /* IOS-Swift-CoreMotionAccelerometer01 */;
+			targetProxy = BCE76B1923EA1AE500EEA742 /* PBXContainerItemProxy */;
+		};
+		BCE76B2523EA1AE500EEA742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE76B0123EA1AE100EEA742 /* IOS-Swift-CoreMotionAccelerometer01 */;
+			targetProxy = BCE76B2423EA1AE500EEA742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCE76B1023EA1AE500EEA742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE76B1123EA1AE500EEA742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCE76B2A23EA1AE500EEA742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCE76B2B23EA1AE500EEA742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE76B2D23EA1AE500EEA742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IOS-Swift-CoreMotionAccelerometer01/Preview Content\"";
+				DEVELOPMENT_TEAM = J57XQMQPDD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "IOS-Swift-CoreMotionAccelerometer01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.dev.IOS-Swift-CoreMotionAccelerometer01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCE76B2E23EA1AE500EEA742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IOS-Swift-CoreMotionAccelerometer01/Preview Content\"";
+				DEVELOPMENT_TEAM = J57XQMQPDD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "IOS-Swift-CoreMotionAccelerometer01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.dev.IOS-Swift-CoreMotionAccelerometer01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCE76B3023EA1AE500EEA742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IOS-Swift-CoreMotionAccelerometer01Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.dev.IOS-Swift-CoreMotionAccelerometer01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS-Swift-CoreMotionAccelerometer01.app/IOS-Swift-CoreMotionAccelerometer01";
+			};
+			name = Debug;
+		};
+		BCE76B3123EA1AE500EEA742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IOS-Swift-CoreMotionAccelerometer01Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.dev.IOS-Swift-CoreMotionAccelerometer01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS-Swift-CoreMotionAccelerometer01.app/IOS-Swift-CoreMotionAccelerometer01";
+			};
+			name = Release;
+		};
+		BCE76B3323EA1AE500EEA742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IOS-Swift-CoreMotionAccelerometer01UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.dev.IOS-Swift-CoreMotionAccelerometer01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IOS-Swift-CoreMotionAccelerometer01";
+			};
+			name = Debug;
+		};
+		BCE76B3423EA1AE500EEA742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IOS-Swift-CoreMotionAccelerometer01UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "diego.dev.IOS-Swift-CoreMotionAccelerometer01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IOS-Swift-CoreMotionAccelerometer01";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE76AFD23EA1AE100EEA742 /* Build configuration list for PBXProject "IOS-Swift-CoreMotionAccelerometer01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE76B2A23EA1AE500EEA742 /* Debug */,
+				BCE76B2B23EA1AE500EEA742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE76B2C23EA1AE500EEA742 /* Build configuration list for PBXNativeTarget "IOS-Swift-CoreMotionAccelerometer01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE76B2D23EA1AE500EEA742 /* Debug */,
+				BCE76B2E23EA1AE500EEA742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE76B2F23EA1AE500EEA742 /* Build configuration list for PBXNativeTarget "IOS-Swift-CoreMotionAccelerometer01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE76B3023EA1AE500EEA742 /* Debug */,
+				BCE76B3123EA1AE500EEA742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE76B3223EA1AE500EEA742 /* Build configuration list for PBXNativeTarget "IOS-Swift-CoreMotionAccelerometer01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE76B3323EA1AE500EEA742 /* Debug */,
+				BCE76B3423EA1AE500EEA742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE76AFA23EA1AE100EEA742 /* Project object */;
+}
