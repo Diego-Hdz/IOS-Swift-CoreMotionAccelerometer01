@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  IOS-Swift-CoreMotionAccelerometer01
 //
-//  Created by Pooya on 2018-09-12.
-//  Copyright © 2018 Pooya. All rights reserved.
+//  Created by Diego Hernandez on 2/4/20.
+//  Copyright © 2020 Diego. All rights reserved.
 //
 import UIKit
 
