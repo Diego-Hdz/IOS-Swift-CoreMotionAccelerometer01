@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC28D25924757EC2000D4540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE76B0B23EA1AE500EEA742 /* Assets.xcassets */; };
 		BCE76B0623EA1AE100EEA742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE76B0523EA1AE100EEA742 /* AppDelegate.swift */; };
-		BCE76B0C23EA1AE500EEA742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE76B0B23EA1AE500EEA742 /* Assets.xcassets */; };
 		BCE76B0F23EA1AE500EEA742 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE76B0E23EA1AE500EEA742 /* Preview Assets.xcassets */; };
 		BCE76B1223EA1AE500EEA742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE76B1023EA1AE500EEA742 /* LaunchScreen.storyboard */; };
 		BCE76B1D23EA1AE500EEA742 /* IOS_Swift_CoreMotionAccelerometer01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE76B1C23EA1AE500EEA742 /* IOS_Swift_CoreMotionAccelerometer01Tests.swift */; };
@@ -242,7 +242,7 @@
 			files = (
 				BCE76B1223EA1AE500EEA742 /* LaunchScreen.storyboard in Resources */,
 				BCE76B0F23EA1AE500EEA742 /* Preview Assets.xcassets in Resources */,
-				BCE76B0C23EA1AE500EEA742 /* Assets.xcassets in Resources */,
+				BC28D25924757EC2000D4540 /* Assets.xcassets in Resources */,
 				BCE76B3623EA1B9100EEA742 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
